@@ -60,5 +60,13 @@ namespace Veterinary.Pages
             //WinEdit win = new WinEdit(select);
             //win.Show();
         }
+
+        private void btnDelete_Click(object sender, RoutedEventArgs e)
+        {
+            var scr = (sender as Button).DataContext as Reception;
+            scr.isDelete = true;
+            ClassDB.connection.SaveChanges();
+            listRecept.ItemsSource = ClassDB.connection.Reception.Where(z => z.isDelete == false).ToList();
+        }
     }
 }

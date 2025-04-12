@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-F:\Рабочий стол\Veterinary\Veterinary\obj\Debug\
+F:\Рабочий стол\VetPapk\Veterinary\Veterinary\obj\Debug\
 Veterinary
 none
 false
 DEBUG;TRACE
-F:\Рабочий стол\Veterinary\Veterinary\App.xaml
-4-82610282
+F:\Рабочий стол\VetPapk\Veterinary\Veterinary\App.xaml
+5720419294
 2-1293242089
-18-1271213935
-18-1581268083
-MainWindow.xaml;Pages\PageAdd.xaml;Pages\PageAuto.xaml;Pages\PageList.xaml;
+201176779371
+18-615693523
+MainWindow.xaml;Pages\PageAdd.xaml;Pages\PageAuto.xaml;Pages\PageList.xaml;WinEdit.xaml;
 
-False
+True
 

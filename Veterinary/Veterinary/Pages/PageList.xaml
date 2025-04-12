@@ -45,6 +45,7 @@
                             <TextBlock Text=" "/>
                             <TextBlock Text="{Binding date}" Foreground="Gray"/>
                             <Button x:Name="btnEdit" Content="Редактировать прием" Click="btnEdit_Click"/>
+                            <Button x:Name="btnDelete" Content="Удалить прием" Click="btnDelete_Click"/>
                         </DockPanel>
                         <DockPanel>
                             <TextBlock Text="   "/>
