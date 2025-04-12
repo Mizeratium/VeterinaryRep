@@ -1,0 +1,42 @@
+﻿<Page x:Class="Veterinary.Pages.PageAdd"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Veterinary.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PageAdd">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="6*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="6*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="1" Grid.Column="1" VerticalAlignment="Center">
+            <DockPanel>
+                <TextBlock Text="Клиент" Width="80"/>
+                <ComboBox x:Name="cmbAnimal"/>
+            </DockPanel>
+            <DockPanel>
+                <TextBlock Text="Ветеринар" Width="80"/>
+                <ComboBox x:Name="cmbDoctor"/>
+            </DockPanel>
+            <DockPanel>
+                <TextBlock Text="Дата" Width="80"/>
+                <TextBox x:Name="txbDate"/>
+            </DockPanel>
+            <DockPanel>
+                <TextBlock Text="Комментарий к записи" Width="80"/>
+                <TextBox Height="50" TextWrapping="Wrap"/>
+            </DockPanel>
+            <Button x:Name="btnSave" Content="Добавить прием" Click="btnSave_Click" Width="250"/>
+        </StackPanel>
+    </Grid>
+</Page>
